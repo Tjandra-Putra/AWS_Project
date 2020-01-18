@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dfc7cdfc-d4a8-4f0d-9ef9-abb8a1f99246" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60322/Ws_Registrationsvc.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Ws_Registrationsvc.xsd" MetadataType="Schema" ID="8bd6bfc9-9d86-4454-b258-2127bd14145b" SourceId="1" SourceUrl="http://localhost:60322/Ws_Registrationsvc.svc?xsd=xsd2" />
+    <MetadataFile FileName="Ws_Registrationsvc1.xsd" MetadataType="Schema" ID="ef6697ba-cbe2-4569-922c-50ff35430fdb" SourceId="1" SourceUrl="http://localhost:60322/Ws_Registrationsvc.svc?xsd=xsd1" />
+    <MetadataFile FileName="Ws_Registrationsvc2.xsd" MetadataType="Schema" ID="17e2ac7e-fc16-4ec7-8439-41af1b4fe43f" SourceId="1" SourceUrl="http://localhost:60322/Ws_Registrationsvc.svc?xsd=xsd0" />
+    <MetadataFile FileName="Ws_Registrationsvc.wsdl" MetadataType="Wsdl" ID="221144af-4c65-47a9-86e0-e5b844b96000" SourceId="1" SourceUrl="http://localhost:60322/Ws_Registrationsvc.svc?wsdl" />
+    <MetadataFile FileName="Ws_Registrationsvc.disco" MetadataType="Disco" ID="3f0acf52-18ef-4ab1-85c5-3301f0407be0" SourceId="1" SourceUrl="http://localhost:60322/Ws_Registrationsvc.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
