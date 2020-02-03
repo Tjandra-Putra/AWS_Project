@@ -33,7 +33,9 @@ namespace AWS_FLY_TA
 
             if (result > 0)
             {
-                Response.Write("<script>alert('Successfully Created!');</script>");
+                //Response.Write("<script>alert('Successfully Created!');</script>");
+                ClientScript.RegisterStartupScript(this.GetType(), "randomtext", "alertMe()", true);
+
             }
 
         }

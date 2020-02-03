@@ -84,8 +84,8 @@
                         </Columns>
                     </asp:GridView>
 
-<%--                    <asp:DetailsView ID="dv_Registered" runat="server" Height="50px" Width="125px" CssClass="table table-striped table-dark border-0"></asp:DetailsView>--%>
-                    <asp:GridView ID="gv_Detailed" runat="server"  CssClass="table table-striped table-dark border-0">
+                    <%--                    <asp:DetailsView ID="dv_Registered" runat="server" Height="50px" Width="125px" CssClass="table table-striped table-dark border-0"></asp:DetailsView>--%>
+                    <asp:GridView ID="gv_Detailed" runat="server" CssClass="table table-striped table-dark border-0">
                     </asp:GridView>
 
                 </div>
@@ -96,6 +96,8 @@
         </div>
     </form>
 </body>
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
